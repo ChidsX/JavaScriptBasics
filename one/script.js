@@ -1,7 +1,6 @@
-import {pi} from "./utils";
+import {pi} from "./utils.js";
 
-valeOfPi = pi
-console.log(valueOfPi);
+console.log(pi);
 
 console.log ("hello Peter");
 
@@ -50,7 +49,7 @@ else {
 
 // switch statemen
 
-number = 1
+const number = 1
 
 switch(number){
     case 2:

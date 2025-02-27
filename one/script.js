@@ -63,5 +63,17 @@ switch(number){
 
 const button = document.getElementById("clickbutton")
 const nameInput = document.getElementById("inputText")
-const greetButton = document.getElementById("greet button")
+const greetButton = document.getElementById("greetbutton")
 const output = document.getElementById("output")
+
+//add event listeners
+
+greetButton.addEventListener("click",() => {
+    let name = nameInput.value;
+    if (name){
+        output.innerText = `hello, ${name} !`;
+    }
+    else{
+        output.innerText = 'Please enter a name'
+    }
+});

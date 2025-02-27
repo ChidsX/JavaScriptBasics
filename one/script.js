@@ -1,3 +1,8 @@
+import {pi} from "./utils";
+
+valeOfPi = pi
+console.log(valueOfPi);
+
 console.log ("hello Peter");
 
 // syntax and varaiables
@@ -74,6 +79,6 @@ greetButton.addEventListener("click",() => {
         output.innerText = `hello, ${name} !`;
     }
     else{
-        output.innerText = 'Please enter a name'
+        output.innerText = `Please enter a name`
     }
 });

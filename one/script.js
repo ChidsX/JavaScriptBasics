@@ -58,3 +58,10 @@ switch(number){
         console.log("the number is one")
         break
 }
+
+// selecting elements
+
+const button = document.getElementById("clickbutton")
+const nameInput = document.getElementById("inputText")
+const greetButton = document.getElementById("greet button")
+const output = document.getElementById("output")
